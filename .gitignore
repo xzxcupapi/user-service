@@ -1,0 +1,42 @@
+# File konfigurasi
+.env
+.env.*
+
+# Binary yang dikompilasi
+/bin
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# File temporary
+*.test
+*.out
+/tmp
+
+# File log
+*.log
+
+# File sistem operasi
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Direktori IDE dan editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Direktori dependensi Go
+/vendor/
+
+# File binary hasil compile
+main
+user-service
